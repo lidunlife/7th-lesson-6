@@ -1,0 +1,95 @@
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+} */
+
+#container {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+}
+
+button {
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+#userInfo {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cards{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 700px;
+    margin: 0 auto;
+    
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#imgDiv{
+    margin: 0 auto;
+    border: 3px solid rgb(14, 233, 175);
+    border-radius: 300px;
+    width: 128px;
+    height: 128px;
+    background: url(https://randomuser.me/api/portraits/men/22.jpg);
+}
+
+body{
+    background-color: rgb(15, 121, 166);
+}
+b{
+    color: rgb(220, 186, 15);
+}
+button {
+    font-size: 1.2em;
+    /* margin: 10px; */
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 300px;
+    background: rgb(220, 186, 15);
+    outline: none;
+    border: none;
+}
+p{
+    color:  rgb(220, 186, 15);
+}
+.info-label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.info-data {
+    color: rgb(220, 186, 15);
+}
